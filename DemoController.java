@@ -48,7 +48,7 @@ public class DemoController {
         headers.setContentType(MediaType.APPLICATION_JSON);
         MultiValueMap<String, String> params = new LinkedMultiValueMap<>();
 
-//        需要传递过去的告警信息
+//        需要传递过去的告警信息阿松大
         Map<String, Object> datamap = new HashMap<String, Object>();
         JSONObject thing2json = new JSONObject();
         thing2json.put("value", "云开发接入订阅消息提醒aa");
