@@ -21,7 +21,7 @@ func main() {
 	//DATABASE BASH
 	engine = common.InitDB()
 
-	//如果修改了结构体，比如增加了某一字段，不会改变原有数据，只会在数据库增加一列
+	//如果修改了结构体，比如增加了某一字段，不会改变原有数据，只会在数据库增加一列asdasdasda
 	engine.SetMapper(names.SnakeMapper{})
 	engine.Sync2(new(UserTable))
 
