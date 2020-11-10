@@ -81,7 +81,7 @@ public class DemoController {
         String access_token = (String) map.get("access_token");
 
 
-//调用云函数的url
+//调用云函数的url阿三大苏打
         String INVOKE_CLOUD__URL_ADDDATA = "https://api.weixin.qq.com/tcb/invokecloudfunction?access_token=" + access_token + "&env=" + env + "&name=" + cloudNameadddata;
         return demoService.client111(INVOKE_CLOUD__URL_ADDDATA, method, headers, message);
     }
